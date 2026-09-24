@@ -6,7 +6,7 @@
   with your actual GitHub username (the one hosting the GitHub Pages site).
 
   The expected hosting URL is:
-    https://Ampel-Technologies.github.io/signatureforge/
+    https://dchamorroarias2lsg.github.io/signatureforge/
 
   The Id below MUST be a unique GUID per deployment.
   Generate a new one if you fork this for another tenant:
@@ -20,18 +20,18 @@
   xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0"
   xsi:type="MailApp">
 
-  <Id>f9f94a30-9bc7-41ad-90b2-e1f883ec1536</Id>
+  <Id>70c28186-a242-420b-82c9-599855e65371</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>SignatureForge</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="SignatureForge" />
   <Description DefaultValue="Set Outlook signatures automatically using mailbox identity plus two user-editable fields." />
-  <IconUrl DefaultValue="https://Ampel-Technologies.github.io/signatureforge/icon-64.png" />
-  <HighResolutionIconUrl DefaultValue="https://Ampel-Technologies.github.io/signatureforge/icon-128.png" />
-  <SupportUrl DefaultValue="https://Ampel-Technologies.github.io/signatureforge/" />
+  <IconUrl DefaultValue="https://dchamorroarias2lsg.github.io/signatureforge/icon-64.png" />
+  <HighResolutionIconUrl DefaultValue="https://dchamorroarias2lsg.github.io/signatureforge/icon-128.png" />
+  <SupportUrl DefaultValue="https://dchamorroarias2lsg.github.io/signatureforge/" />
 
   <AppDomains>
-    <AppDomain>https://Ampel-Technologies.github.io</AppDomain>
+    <AppDomain>https://dchamorroarias2lsg.github.io</AppDomain>
   </AppDomains>
 
   <Hosts>
@@ -47,7 +47,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://Ampel-Technologies.github.io/signatureforge/index.html" />
+        <SourceLocation DefaultValue="https://dchamorroarias2lsg.github.io/signatureforge/index.html" />
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -136,21 +136,21 @@
       <Resources>
         <bt:Images>
           <bt:Image id="Icon.16x16"
-            DefaultValue="https://Ampel-Technologies.github.io/signatureforge/icon-16.png" />
+            DefaultValue="https://dchamorroarias2lsg.github.io/signatureforge/icon-16.png" />
           <bt:Image id="Icon.32x32"
-            DefaultValue="https://Ampel-Technologies.github.io/signatureforge/icon-32.png" />
+            DefaultValue="https://dchamorroarias2lsg.github.io/signatureforge/icon-32.png" />
           <bt:Image id="Icon.80x80"
-            DefaultValue="https://Ampel-Technologies.github.io/signatureforge/icon-80.png" />
+            DefaultValue="https://dchamorroarias2lsg.github.io/signatureforge/icon-80.png" />
         </bt:Images>
         <bt:Urls>
           <bt:Url id="Commands.Url"
-            DefaultValue="https://Ampel-Technologies.github.io/signatureforge/commands.html" />
+            DefaultValue="https://dchamorroarias2lsg.github.io/signatureforge/commands.html" />
           <bt:Url id="WebViewRuntime.Url"
-            DefaultValue="https://Ampel-Technologies.github.io/signatureforge/commands.html" />
+            DefaultValue="https://dchamorroarias2lsg.github.io/signatureforge/commands.html" />
           <bt:Url id="JSRuntime.Url"
-            DefaultValue="https://Ampel-Technologies.github.io/signatureforge/launchevent.js" />
+            DefaultValue="https://dchamorroarias2lsg.github.io/signatureforge/launchevent.js" />
           <bt:Url id="Settings.Url"
-            DefaultValue="https://Ampel-Technologies.github.io/signatureforge/index.html" />
+            DefaultValue="https://dchamorroarias2lsg.github.io/signatureforge/index.html" />
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="GroupLabel" DefaultValue="SignatureForge" />
