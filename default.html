@@ -1,38 +1,53 @@
-<table cellpadding="0" cellspacing="0" border="0" style="font-family:Arial, sans-serif; color:#252831;">
+<table cellpadding="0" cellspacing="0" border="0" style="font-family:Arial, sans-serif; color:#000;">
   <tr>
-    <td style="font-size:24px; font-weight:700; padding-bottom:4px;">
-      {{firstName}}
+    <td style="font-size:16px; font-weight:700; padding-bottom:2px;">
+      {{displayName}}
     </td>
   </tr>
 
   <tr>
-    <td style="font-size:15px; color:#6B7280; padding-bottom:14px;">
-      {{title}} at Ampel
+    <td style="font-size:13px; color:#333; padding-bottom:10px;">
+      {{title}}
     </td>
   </tr>
 
   <tr>
-    <td style="font-size:14px; line-height:1.7;">
-      {{phone}}<br>
+    <td style="font-size:13px; color:#000; padding-bottom:2px;">
+      {{phone}}
+    </td>
+  </tr>
 
-      <a href="https://www.ampel.tech"
-         style="color:#05fc7d; text-decoration:none; font-weight:600;">
-        ampel.tech
+  <tr>
+    <td style="font-size:13px; line-height:1.6; padding-bottom:10px;">
+      <a href="https://www.leangroup.com/"
+         style="color:#0090ea; text-decoration:none;">
+        LeanGroup.com
       </a>
-      {{{websiteBlock}}}
+      &nbsp;&nbsp;&nbsp;
+      <a href="mailto:{{email}}"
+         style="color:#0090ea; text-decoration:none;">
+        {{email}}
+      </a>
+      <br>
+      <a href="https://www.linkedin.com/company/lean-solutions-g/"
+         style="color:#0090ea; text-decoration:none;">
+        LinkedIn
+      </a>
+      &nbsp;|&nbsp;
+      <a href="https://www.instagram.com/leansolutionsgroup/"
+         style="color:#0090ea; text-decoration:none;">
+        @LeanSolutionsGroup
+      </a>
     </td>
   </tr>
 
   <tr>
-    <td style="padding-top:14px;">
-      <div style="width:180px; border-top:1px solid #D1D5DB; margin-bottom:14px;"></div>
-
+    <td style="padding-top:6px;">
       <img
-        src="data:image/png;base64,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"
-        alt="Ampel"
-        width="95"
-        height="89"
-        style="display:block; width:95px; height:89px; border:0; outline:none; text-decoration:none;"
+        src="https://6406393.fs1.hubspotusercontent-na1.net/hubfs/6406393/LSG%20IT%20Images/Horizontal%20Logo%20on%20white%20background%20ONLY.png"
+        alt="Lean Solutions Group"
+        width="220"
+        style="display:block; border:0; outline:none; text-decoration:none;"
       >
     </td>
   </tr>
