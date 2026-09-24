@@ -11,7 +11,7 @@
  * If anything fails, the event completes silently so sending mail is never blocked.
  */
 
-const CONFIG_BASE_URL = "https://Ampel-Technologies.github.io/signatureforge";
+const CONFIG_BASE_URL = "https://dchamorroarias2lsg.github.io/signatureforge";
 const CACHE_TTL_MS = 60 * 1000;
 const SETTINGS_KEYS = {
   title: "signatureforge.title",
